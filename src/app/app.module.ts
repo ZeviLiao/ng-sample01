@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { XyzComponent } from './xyz/xyz.component';
+// Constant
+import { stationList } from './station-list.const';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    XyzComponent
   ],
   imports: [
     BrowserModule,
